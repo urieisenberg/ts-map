@@ -10,3 +10,5 @@ const map = new Map('map');
 
 console.log(user);
 console.log(company);
+
+map.addMarker(user);
