@@ -1,0 +1,24 @@
+{
+  "name": "user-company-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urieisenberg/ts-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urieisenberg/ts-map/issues"
+  },
+  "homepage": "https://github.com/urieisenberg/ts-map#readme",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@types/google.maps": "^3.51.0"
+  }
+}
