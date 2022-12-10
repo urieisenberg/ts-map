@@ -12,4 +12,4 @@ console.log(user);
 console.log(company);
 
 map.addMarker(user);
-map.addCompanyMarker(company);
+map.addMarker(company);

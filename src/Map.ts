@@ -6,7 +6,6 @@ interface Mappable {
     lat: number;
     lng: number;
   };
-  markerContent(): string;
 }
 
 export class Map {
@@ -32,6 +31,13 @@ export class Map {
         lat: mappable.location.lat,
         lng: mappable.location.lng,
       },
+    });
+    marker.addListener('click', () => {
+      const infoWindow = new google.maps.InfoWindow({
+        content: 'marker content',
+      });
+
+      infoWindow.open(this.googleMap, marker);
     });
   }
 }
